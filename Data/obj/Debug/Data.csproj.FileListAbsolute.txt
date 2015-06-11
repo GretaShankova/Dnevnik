@@ -1,0 +1,16 @@
+D:\csharpprojects\testWS\Data\bin\Debug\Data.dll.config
+D:\csharpprojects\testWS\Data\bin\Debug\Data.dll
+D:\csharpprojects\testWS\Data\bin\Debug\Data.pdb
+D:\csharpprojects\testWS\Data\bin\Debug\Data.Models.dll
+D:\csharpprojects\testWS\Data\bin\Debug\EntityFramework.dll
+D:\csharpprojects\testWS\Data\bin\Debug\Data.Models.pdb
+D:\csharpprojects\testWS\Data\bin\Debug\EntityFramework.xml
+D:\csharpprojects\testWS\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\csharpprojects\testWS\Data\obj\Debug\Data.dll
+D:\csharpprojects\testWS\Data\obj\Debug\Data.pdb
+D:\csharpprojects\testWS\Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\csharpprojects\testWS\Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\csharpprojects\testWS\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\csharpprojects\testWS\Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\csharpprojects\testWS\Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\csharpprojects\testWS\Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
