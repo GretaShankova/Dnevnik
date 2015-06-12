@@ -15,6 +15,12 @@ namespace WebApi
             config.MapHttpAttributeRoutes();
 
             config.Routes.MapHttpRoute(
+                name: "GetUserByNameAndPass",
+                routeTemplate: "api/{controller}/{username}/{pass}",
+                defaults: new { }
+            );
+
+            config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }

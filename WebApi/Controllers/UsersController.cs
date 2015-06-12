@@ -102,6 +102,21 @@ namespace WebApi.Controllers
             return Ok(user);
         }
 
+
+        // GET: api/Users/5
+        [ResponseType(typeof(User))]
+        public IHttpActionResult GetUser(string username, string pass)
+        {
+            User user = db.Users.FirstOrDefault(u => u.Username == username && u.PassHash == pass);
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(user);
+        }
+
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
