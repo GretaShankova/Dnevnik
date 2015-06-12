@@ -26,6 +26,7 @@ namespace testWS.Controllers
         [HttpGet]
         public bool VerifyUser(string username, string password)
         {
+
             var user = data.Users.FirstOrDefault(u => u.Username == username && u.PassHash == password);     
 
             return user != null;
