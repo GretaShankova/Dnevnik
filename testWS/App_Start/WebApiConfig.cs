@@ -12,7 +12,7 @@ namespace testWS
             config.Routes.MapHttpRoute(
                 name: "verify user",
                 routeTemplate: "api/{controller}/{action}/{username}/{password}",
-                defaults: new { controller = "Home", action = "Index", username = RouteParameter.Optional, password = RouteParameter.Optional }
+                defaults: new {  username = RouteParameter.Optional, password = RouteParameter.Optional }
             );
 
             config.Routes.MapHttpRoute(
