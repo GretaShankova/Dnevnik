@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
-using Data.Models;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Data.Migrations;
-
-namespace Data
+﻿namespace Data
 {
+    using System.Data.Entity;
+    using Data.Models;
+    using Data.Migrations;
+
     public class AppDbContext:DbContext
     {
         public AppDbContext()
