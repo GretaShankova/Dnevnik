@@ -74,3 +74,6 @@ D:\GITHUB\Dnevnika\testWS\bin\System.Web.WebPages.Razor.xml
 D:\GITHUB\Dnevnika\testWS\obj\Debug\testWS.csprojResolveAssemblyReference.cache
 D:\GITHUB\Dnevnika\testWS\obj\Debug\testWS.dll
 D:\GITHUB\Dnevnika\testWS\obj\Debug\testWS.pdb
+D:\GITHUB\Dnevnika\testWS\bin\Glimpse.AspNet.dll
+D:\GITHUB\Dnevnika\testWS\bin\Glimpse.Core.dll
+D:\GITHUB\Dnevnika\testWS\bin\Glimpse.Mvc5.dll
