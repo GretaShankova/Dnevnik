@@ -23,6 +23,6 @@ namespace Data.Models
 
         public Role Role { get; set; }
 
-        public virtual HashSet<Absence> Absences { get; set; }
+        public virtual ICollection<Absence> Absences { get; set; }
     }
 }
