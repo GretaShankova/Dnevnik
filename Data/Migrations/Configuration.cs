@@ -8,13 +8,13 @@ namespace Data.Migrations
         public Configuration()
         {
             this.AutomaticMigrationsEnabled = true;
-            this.AutomaticMigrationDataLossAllowed = true;
+            this.AutomaticMigrationDataLossAllowed = false;
         }
 
         protected override void Seed(Data.AppDbContext context)
         {
-            context.Users.Add(new User() { Username = "admin", PassHash = "admin", Role = Role.Administrator });
-            context.SaveChanges();
+            //context.Users.Add(new User() { Username = "admin", PassHash = "admin", Role = Role.Administrator });
+            //context.SaveChanges();
         }
     }
 }
