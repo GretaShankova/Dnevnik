@@ -9,6 +9,11 @@ namespace Data.Models
 {
     public class User
     {
+        public User()
+        {
+            this.Absences = new HashSet<Absence>();
+        }
+
         [Key]
         public int Id { get; set; }
 
@@ -17,5 +22,7 @@ namespace Data.Models
         public string PassHash { get; set; }
 
         public Role Role { get; set; }
+
+        public virtual HashSet<Absence> Absences { get; set; }
     }
 }
