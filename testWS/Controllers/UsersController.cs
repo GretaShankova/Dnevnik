@@ -12,26 +12,26 @@ namespace testWS.Controllers
     public class UsersController : ApiController
     {
         AppDbContext data = AppDbContext.Create();
-        // GET api/values
+        // GET api/users
         public IEnumerable<User> Get()
         {
             return data.Users;
         }
 
-        // GET api/values/5
+        // GET api/users/5
         public User Get(int id)
         {
             return data.Users.FirstOrDefault(u => u.Id == id);
         }
 
-        // POST api/values
+        // POST api/users
         public void Post([FromBody]User user)
         {
             data.Users.Add(user);
             data.SaveChanges();
         }
 
-        // PUT api/values/5
+        // PUT api/users/5
         public void Put(int id, [FromBody]User user)
         {
             var usr = data.Users.FirstOrDefault(u => u.Id == id);
@@ -42,7 +42,7 @@ namespace testWS.Controllers
 
         }
 
-        // DELETE api/values/5
+        // DELETE api/users/5
         public void Delete(int id)
         {
             var usr = data.Users.Remove(data.Users.FirstOrDefault(u => u.Id == id));
