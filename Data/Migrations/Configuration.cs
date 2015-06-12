@@ -13,8 +13,8 @@ namespace Data.Migrations
 
         protected override void Seed(Data.AppDbContext context)
         {
-            //context.Users.Add(new User() { Username = "admin", PassHash = "admin", Role = Role.Administrator });
-            //context.SaveChanges();
+            context.Users.Add(new User() { Username = "admin", PassHash = "admin", Role = Role.Administrator });
+            context.SaveChanges();
         }
     }
 }

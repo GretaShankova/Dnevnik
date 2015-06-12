@@ -10,6 +10,8 @@ namespace Data.Models
     {
         public int Id { get; set; }
 
+        public DateTime AbsenceDate { get; set; }
+
         public int UserId { get; set; }
 
         public virtual User Student { get; set; }
